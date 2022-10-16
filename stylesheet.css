@@ -6,7 +6,7 @@
 
 body {
 	
-	background-image: url(https://images6.alphacoders.com/107/1072679.jpghttps://png.pngtree.com/background/20210712/original/pngtree-cute-hand-drawn-style-math-education-plaid-background-picture-image_1176716.jpg);
+	background-image: url(https://github.com/jordhyputra27/Project-Calculator-Progate/blob/main/img/back4.jpg?raw=true);
     background-size: cover;
 	height: 637px;
 }
@@ -17,7 +17,7 @@ body {
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
 	width: fixed;
-	background: rgba(0,0,0,0.4);
+	background: rgba(210, 105, 30,0.4);
 	padding: 25px;
 	border-radius: 15px;
 	box-shadow: 0 0 15px;
@@ -30,7 +30,7 @@ button {
 	margin: 2px;
 	cursor: pointer;
 	border: none;
-	background: #4e9cc4;
+	background: rgba(4, 129, 114, 0.7);
 	color: white;
 	border-radius: 25px;
 	
@@ -47,7 +47,8 @@ button.all-clear , .zero-btn{
 	font-size: 20px;
 	padding: 10px;
 	border: none;
-	color: #05a5f5;
+	background-color:rgb(60, 11, 4, 0.7);
+	color: #ffc462;
 	border-radius: 25px;
 	text-align: right;
 }
