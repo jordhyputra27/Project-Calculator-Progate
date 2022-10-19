@@ -85,6 +85,19 @@ const clearAll = () => {
     currentNumber ='0'
 }
 
+const delBtn =document.querySelector('.delete')
+
+delBtn.addEventListener('click',() => {
+    delBefore()
+    updateScreen(currentNumber)
+})
+
+const delBefore = () => {
+    prevNumber = ''
+    calculationOperator = ''
+    currentNumber = currentNumber.slice(0,-1)
+}
+
 const decimal = document.querySelector('.decimal')
 
 decimal.addEventListener('click', (event) => {
