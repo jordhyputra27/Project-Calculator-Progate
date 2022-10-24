@@ -1,17 +1,46 @@
+@media all and (max-width: 3000px) {
+    body {
+        background-repeat: no-repeat;
+        height: 2600px;
+    }
+}
+
+@media all and (max-width: 1500px) {
+    body {
+        background-size: cover;
+        height: 800px;
+    }
+}
+
 @media all and (max-width: 670px) {
+    body {
+        background-size: cover;
+        height: 673px;
+    }
+
     .heading {
         text-align: center;
         margin-left: 50px;
     }
+
 }
 
 @media all and (max-width: 425px) {
+    body {
+        background-size: cover;
+        height: 673px;
+    }
+
     .heading {
         margin-left:25px;
     }
 }
 
 @media all and (max-width: 375px) {
+    body {
+        background-size: cover;
+        height: 673px;
+    }
     .heading {
         margin-left:10px;
     }
