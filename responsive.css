@@ -1,14 +1,24 @@
-@media all and (max-width: 3000px) {
+@media (min-width: 2550px) {
     body {
         background-repeat: no-repeat;
-        height: 2600px;
+        background-size: cover;
+        height:2000px;
     }
 }
 
-@media all and (max-width: 1500px) {
+@media (min-width: 1440px) {
     body {
+        background-repeat: no-repeat;
         background-size: cover;
-        height: 800px;
+        height:1000px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:673px;
     }
 }
 
