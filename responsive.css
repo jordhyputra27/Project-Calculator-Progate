@@ -1,0 +1,22 @@
+@media all and (max-width: 670px) {
+    .heading {
+        text-align: center;
+        margin-left: 50px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .heading {
+        margin-left:25px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .heading {
+        margin-left:10px;
+    }
+
+    .calculator {
+        margin-top:50px;
+    }
+}
