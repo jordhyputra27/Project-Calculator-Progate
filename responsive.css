@@ -41,6 +41,13 @@
     }
 }
 
+@media all and (max-width: 1440px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:1000px;
+    }
+}
 
 @media all and (max-width: 670px) {
     body {
