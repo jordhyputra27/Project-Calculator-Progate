@@ -31,6 +31,7 @@ const operators = document.querySelectorAll(".operator")
 operators.forEach((operator) => {
     operator.addEventListener("click", (event) => {
         inputOperator(event.target.value)
+        updateScreen(calculationOperator)
     })
 })
 
@@ -54,16 +55,16 @@ const calculate = () => {
             result = parseFloat(prevNumber) + parseFloat(currentNumber)
             break
         case "-":
-            result = prevNumber - currentNumber
+            result = parseFloat(prevNumber) - parseFloat(currentNumber)
             break
         case "*":
-            result = prevNumber * currentNumber
+            result = parseFloat(prevNumber) * parseFloat(currentNumber)
             break
         case "/":
-            result = prevNumber / currentNumber
+            result = parseFloat(prevNumber) / parseFloat(currentNumber)
             break
         case "%":
-            result = prevNumber / 100
+            result = parseFloat(prevNumber) / 100
             break
         default:
             return
